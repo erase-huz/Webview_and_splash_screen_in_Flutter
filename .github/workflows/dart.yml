@@ -20,8 +20,9 @@ jobs:
           java-version: '12.x'
       - uses: subosito/flutter-action@v1
         with:
-          flutter-version: '2.2.0'
+          flutter-version: '2.2.0'  
       - run: flutter pub get
+      - run: flutter pub upgrade --null-safety
       - run: flutter build apk --debug --no-sound-null-safety
       - run: |
           flutter build ios --no-codesign
