@@ -4,9 +4,9 @@ Flutter Web View With Splash Screen.
 Subscribe Our YouTube Channel.<br><br>
 
 
-First change web.dart link
-Then Change App name in ios plist
-Then change ios icon and image set
+First change web.dart link,
+Then Change App name in ios plist,
+Then change ios icon and image set,
 Then change assets in launch image
 
 ## 🔗 Links
