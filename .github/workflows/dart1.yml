@@ -1,6 +1,6 @@
 on:
   workflow_dispatch:
-    branches: [main]
+    branches: [erase-huz-patch-2]
     
     
 name: "Build & Release"
