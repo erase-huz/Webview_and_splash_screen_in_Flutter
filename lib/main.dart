@@ -49,7 +49,7 @@ class _SplashScreen1State extends State<SplashScreen1> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.white,
+      color: Colors.pink[75],
 
       child: Center(
 
@@ -64,10 +64,6 @@ class _SplashScreen1State extends State<SplashScreen1> {
             Image.asset('assets/220px-UET_Taxila_logo.svg.png'),
             //SizedBox(height: 50),
 
-            // CircularProgressIndicator(
-            //   backgroundColor: Colors.white,
-            //
-            // ),
             Padding(padding: EdgeInsets.only(bottom:150,)),
             //Text("version.1.0.0", style: TextStyle(fontSize: 11, color: Colors.black26),),
           ],
