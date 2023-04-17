@@ -65,7 +65,7 @@ class _SplashScreen1State extends State<SplashScreen1> {
             //SizedBox(height: 50),
 
             // CircularProgressIndicator(
-            //   backgroundColor: Colors.white,
+            backgroundColor: Colors.white,
             //
             // ),
             Padding(padding: EdgeInsets.only(bottom:150,)),
