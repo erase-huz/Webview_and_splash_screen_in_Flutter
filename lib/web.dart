@@ -24,7 +24,7 @@ class _WebViewClassState extends State<WebViewClass> {
       body: SafeArea(
         child: WebView(
 
-              initialUrl: 'https://my.app2apk.xyz/',
+              initialUrl: 'https://app.rogenso.com.tr/2023/05/login-to-your-account/',
               onWebViewCreated: (WebViewController webViewController) {
                 _controller.complete(webViewController);
               },
