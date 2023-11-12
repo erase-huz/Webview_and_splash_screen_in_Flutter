@@ -24,7 +24,7 @@ class _WebViewClassState extends State<WebViewClass> {
       body: SafeArea(
         child: WebView(
 
-              initialUrl: 'http://www.doviz.habertanzim.com',
+              initialUrl: 'https://gascom.com.tr',
               onWebViewCreated: (WebViewController webViewController) {
                 _controller.complete(webViewController);
               },
